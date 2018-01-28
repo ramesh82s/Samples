@@ -1,3 +1,12 @@
+if 123 == 123
+  puts ''
+end
+if 'lla123' =~ /^.+a123$/
+  puts "Matches"
+else
+  puts "Doesn't Match"
+end
+
 module Pali
   def self.palindrome(data="test")
       data.downcase == data.downcase.reverse ? (puts "Palindrome") : (puts "Not a Palindrome")
