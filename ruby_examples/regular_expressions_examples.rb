@@ -1,7 +1,7 @@
 if 123 == 123
   puts ''
 end
-if 'lla123' =~ /^.+a123$/
+if 'lla123' =~ /^.+A123$/i
   puts "Matches"
 else
   puts "Doesn't Match"
